@@ -1,7 +1,16 @@
-import React from 'react'
+ import Link from 'next/link'
+ import React from 'react'
+ 
+ export default function Pagelinks({title,link}) {
+   return (
+        <li>
+          <Link href={link}>
+          {title}
+          </Link>
+        </li>
+  
+   )
+ }
+ 
 
-export default function PageLinks({title}) {
-  return (
-      <li>{title}</li>
-  )
-}
+ 

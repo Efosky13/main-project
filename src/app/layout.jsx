@@ -1,9 +1,9 @@
-import { Allerta} from "next/font/google";
+import { Pacifico} from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const allur = Allerta({ subsets: ["latin"],
+const allur = Pacifico({ subsets: ["latin"],
 weight: "400" });
 
 export const metadata = {

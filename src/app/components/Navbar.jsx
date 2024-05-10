@@ -9,22 +9,21 @@ import { AiFillCodepenSquare } from "react-icons/ai";
 export default function Navbar() {
   return (
     
-    <nav className=" bg-blue-50 text-black h-[10vh] flex justify-between text-3xl capitalize m-1 p-2">
+    <nav className=" bg-slate-400   text-black h-[10vh] flex justify-between text-3xl capitalize mt-2">
         
-        <div className="flex items-center gap-2" >
+        <div className="flex items-center " >
         <AiFillCodepenSquare className="font bold text-5xl"/>
             <p>EFOSA</p>
         </div>
         <ul className="flex items-center gap-x-5 ">
-            <li className=" hover:text-slate-500 hover:underline"><Link href='/'>Home</Link></li>
-            <li className=" hover:text-slate-500 hover:underline"><Link href='/pages'>Pages</Link></li>
-            <li className=" hover:text-slate-500 hover:underline"><Link href='/about'>About us</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href='/'>Home</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href='/pages'>Pages</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href='/about'>About us</Link></li>
 
         </ul>
+        <div className=" flex gap-3  pt-3 -ml-20  ">
+        <SocialIcons/> 
         
-        <SocialIcons/>
-
-        <div className="flex items-center">
         <Buttons /> 
         </div>
         
