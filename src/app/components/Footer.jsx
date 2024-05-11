@@ -60,6 +60,7 @@ export default function Footer() {
            <PageLinks title='Coming Soon' link='/'/>
            <PageLinks title='Link In Bio' link='/'/>
            <PageLinks title='Password Protected' link='/'/>
+
            <PageLinks title='Error 404' link='/'/>
 
 
@@ -87,7 +88,7 @@ export default function Footer() {
                
                      <br/>
 
-                      <div className=" text-3xl  bg-inherit  flex">
+                      <div className=" text-2xl  bg-inherit  flex">
                            <GoArrowRight />
                      </div> 
                      </div>

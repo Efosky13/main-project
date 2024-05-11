@@ -16,8 +16,8 @@ export default function Navbar() {
             <p>EFOSA</p>
         </div>
         <ul className="flex items-center gap-x-5 ">
-            <li className=" hover:text-blue-900 hover:underline"><Link href='/'>Home</Link></li>
-            <li className=" hover:text-blue-900 hover:underline"><Link href='/pages'>Pages</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href='/category/Pages.jsx'>Home</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href=' /'>Pages</Link></li>
             <li className=" hover:text-blue-900 hover:underline"><Link href='/about'>About us</Link></li>
 
         </ul>
