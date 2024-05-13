@@ -24,7 +24,7 @@ export default function Footer() {
   <div >
      <h2 className="ml-5 text-2xl ">Categories</h2>
      <div className="m-4 ">
-        <Catlinks title="Sport" bg="bg-pink-700"/>
+        <Catlinks title="Sport" bg="bg-pink-700 " />
         <Catlinks title="Entertainment" bg="bg-yellow-700"/><br/>
         <Catlinks title="Home and Decor" bg="bg-blue-700"/>
         <Catlinks title="Education" bg="bg-red-700"/><br/>
@@ -46,21 +46,20 @@ export default function Footer() {
             <PageLinks title='Blog' link='/'/>
             <PageLinks title='Author' link='/authors'/>
             <PageLinks title='Pricing' link='/'/>
-            <PageLinks title='About us' link='/'/>
+            <PageLinks title='About us' link='/about'/>
             <PageLinks title='Subscribe' link='/'/>
             <PageLinks title='Privacy Policy' link='/'/>
 
            </ol>
 
            <ol>
-           <PageLinks  title='Style Guide' link='/' />
+           <PageLinks  title='Style Guide' link='/Category' />
            <PageLinks title='Instructions' link='/'/>
            <PageLinks title='Licenses' link='/'/>
            <PageLinks title='Changelog' link='/'/>
-           <PageLinks title='Coming Soon' link='/'/>
+           <PageLinks title='login' link='/login'/>
            <PageLinks title='Link In Bio' link='/'/>
            <PageLinks title='Password Protected' link='/'/>
-
            <PageLinks title='Error 404' link='/'/>
 
 
