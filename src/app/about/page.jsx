@@ -24,7 +24,7 @@ Customer satisfaction is at the heart of everything we do.<br/> We value each cl
 
 Thank you for visiting our About page! If you have any questions or inquries please click on the button below
   
-<Image src={images} alt="Logo" width='400' />
+<imG src={images} alt="Logo" width='400' />
 
 
            </div>
