@@ -1,5 +1,5 @@
 import React from 'react'
-import { projects } from '../home/page'
+import { projects } from '../array/array'
 
 
 
@@ -7,7 +7,11 @@ export default function Category() {
   return (
     <div>
       how are you AM THRE BIG PAGE
-      {resoures}
+      {projects.map(pj => (
+        <div>
+          {pj.description}
+        </div>
+      ))}
     </div>
   )
 }
