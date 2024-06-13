@@ -3,7 +3,7 @@ import { projects } from '../array/array'
 
 
 
-export default function Category() {
+export default function category() {
   return (
     <div>
       how are you AM THRE BIG PAGE
