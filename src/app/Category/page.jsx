@@ -8,7 +8,7 @@ export default function Category() {
     <div>
       how are you AM THRE BIG PAGE
       {projects.map(pj => (
-        <div>
+        <div key={pj.id}>
           {pj.description}
         </div>
       ))}
