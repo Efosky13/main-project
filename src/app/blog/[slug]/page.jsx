@@ -16,7 +16,9 @@ export default function BlogSlug({params}) {
         <div>
                     {
                         fP.map(proj => (
-                            <div></div>
+                            <div key={proj.id}>
+
+                            </div>
                         ) )
                     }
         </div>
