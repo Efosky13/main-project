@@ -17,7 +17,8 @@ export default function Footer() {
         
         <p> welcome to the home of fashion where<br/>
          your comfort is our desire
-        </p>
+        </p> 
+        <br/>
         <SocialIcons />
     </div> 
 
@@ -44,24 +45,23 @@ export default function Footer() {
             <PageLinks title='Home' link='/' />
             <PageLinks title='Home 2' link='/'/>
             <PageLinks title='Blog' link='/'/>
-            <PageLinks title='Author' link='/authors'/>
+            <PageLinks title='Author' link='author'/>
             <PageLinks title='Pricing' link='/'/>
-            <PageLinks title='About us' link='/about'/>
+            <PageLinks title='About us' link='about'/>
             <PageLinks title='Subscribe' link='/'/>
-            <PageLinks title='Privacy Policy' link='/'/>
+            <PageLinks title='Privacy Policy' link='privacy-policy'/>
 
            </ol>
 
            <ol>
-           <PageLinks  title='Style Guide' link='/Category' />
+           <PageLinks title='Style Guide' link='Category' />
            <PageLinks title='Instructions' link='/'/>
-           <PageLinks title='Licenses' link='/'/>
-           <PageLinks title='Changelog' link='/'/>
-           <PageLinks title='login' link='/login'/>
+           <PageLinks title='Licenses' link='licence'/>
+           <PageLinks title='Changelog' link='changelog'/>
+           <PageLinks title='login' link='/'/>
            <PageLinks title='Link In Bio' link='/'/>
            <PageLinks title='Password Protected' link='/'/>
-           <PageLinks title='Error 404' link='/'/>
-
+           <PageLinks title='Error 404' link='error-404'/>
 
    
            </ol>

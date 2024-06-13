@@ -13,11 +13,11 @@ export default function Navbar() {
         
         <div className="flex items-center " >
         <AiFillCodepenSquare className="font bold text-5xl"/>
-            <p>EFOSA</p>
+            <p>EFOSKY</p>
         </div>
         <ul className="flex items-center gap-x-5 ">
-            <li className=" hover:text-blue-900 hover:underline"><Link href='/Category'>Home</Link></li>
-            <li className=" hover:text-blue-900 hover:underline"><Link href=' /'>Pages</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href='/home'>Home</Link></li>
+            <li className=" hover:text-blue-900 hover:underline"><Link href=''>Pages</Link></li>
             <li className=" hover:text-blue-900 hover:underline"><Link href='/about'>About us</Link></li>
 
         </ul>
