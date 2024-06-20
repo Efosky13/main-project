@@ -1,6 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import Input from '../components/Input'
+
+
+export const metadata = {
+  title: "Signup",
+  description: "A Web development platform for web developers",
+  keywords:'html,tailwind,css,js.javascript,react,next,vite'
+};
+
 export default function SignUp() {
   return (
     <div className=' border-1 bg-slate-600 rounded-lg p-10 text-center item content-center ml-[500px] mr-[550px]  mt-20'>

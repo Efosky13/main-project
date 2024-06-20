@@ -1,6 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 
+export const metadata = {
+  title: "LOGIN",
+  description: "A Web development platform for web developers",
+  keywords:'html,tailwind,css,js.javascript,react,next,vite'
+};
+
+
 export default function SignUp() {
   return (
     <div className="border border-gray-300 bg-slate-600 rounded-lg p-16 text-center mx-auto mt-20 max-w-md">
@@ -27,10 +34,10 @@ export default function SignUp() {
         />
         
         <button className="bg-slate-900 text-white rounded-md p-4 hover:bg-red-400">
-          <Link href='./home'>Login</Link>
+          <Link href='home'>Login</Link>
         </button>
         <button className="bg-slate-900 text-white rounded-md p-4 hover:bg-red-400">
-          <Link href='./home'>SIGNUP</Link>
+          <Link href='signup'>SIGNUP</Link>
         </button>
       </div>
     </div>

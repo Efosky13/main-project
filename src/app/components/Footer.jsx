@@ -42,7 +42,7 @@ export default function Footer() {
       <div className="flex items-start  gap-10 mt-3 ">
          <ol>
    
-            <PageLinks title='Home' link='/' />
+            <PageLinks title='Home' link='home' />
             <PageLinks title='Home 2' link='/'/>
             <PageLinks title='Blog' link='/'/>
             <PageLinks title='Author' link='author'/>

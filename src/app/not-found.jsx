@@ -1,6 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 
+export const metadata = {
+  title: "NotFound",
+  description: "A Web development platform for web developers",
+  keywords:'html,tailwind,css,js.javascript,react,next,vite'
+};
+
+
 export default function NotFound() {
   return (
     <div className='mt-20'>

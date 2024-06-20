@@ -1,6 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import { SiTicktick } from "react-icons/si"
+
+export const metadata = {
+   title: "About Us",
+   description: "A Web development platform for web developers",
+   keywords:'html,tailwind,css,js.javascript,react,next,vite'
+ };
+ 
  
 
 function MyComponent() {
@@ -44,7 +50,7 @@ export default function about() {
                </div>
                 <br/>
 
-
+                  
             </div>
 
 
@@ -65,10 +71,10 @@ export default function about() {
                           </span></div> <br/>
 
 
-                              <div className='flex gap-10 ml-72 '>
-                                 <div className='border-1 bg-red-500 p-3'> STANDARD QUALITY</div>
-                                 <div className='border-1 bg-green-500 p-3'>  RELIABLE INFORMATION</div>
-                                 <div className='border-1 bg-blue-400 p-3'>  LASTEST TECH</div>
+                              <div className='flex gap-10 ml-72 text-2xl '>
+                                 <div className='border-1 bg-red-500 p-3'> . STANDARD QUALITY</div>
+                                 <div className='border-1 bg-green-500 p-3'> . RELIABLE INFORMATION</div>
+                                 <div className='border-1 bg-blue-700 p-3'> . LASTEST TECHNOLOGY</div>
 
                               </div>
 

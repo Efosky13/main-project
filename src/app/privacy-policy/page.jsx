@@ -1,6 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  title: "Privacy-policy",
+  description: "A Web development platform for web developers",
+  keywords:'html,tailwind,css,js.javascript,react,next,vite'
+};
+
+
 
 export default function pages() {
   return (

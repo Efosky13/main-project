@@ -1,5 +1,12 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Licence",
+  description: "A Web development platform for web developers",
+  keywords:'html,tailwind,css,js.javascript,react,next,vite'
+};
+
+
 export default function page() {
   return (
     <div className=' m-20 ' >
