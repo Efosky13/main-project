@@ -31,7 +31,7 @@ export default function page() {
             <Image className=' overflow-hidden mt-10' src="/media/racing.jpg" width='900' height='10' alt=" AUDI"/>
           </div>
 
-          <div className='text-2xl  '>Up-coming business bloggers, you need to watch</div>
+          <div className='text-2xl  mt-7 underline '>Up-coming business bloggers, you need to watch</div>
 
           <div className='text-lg mt-3'>
           The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
