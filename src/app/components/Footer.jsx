@@ -48,7 +48,7 @@ export default function Footer() {
             <PageLinks title='Author' link='author'/>
             <PageLinks title='Pricing' link='/'/>
             <PageLinks title='About us' link='about'/>
-            <PageLinks title='Subscribe' link='/'/>
+            <PageLinks title='Subscribe' link='subscribe'/>
             <PageLinks title='Privacy Policy' link='privacy-policy'/>
 
            </ol>

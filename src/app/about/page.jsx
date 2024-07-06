@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 export const metadata = {
    title: "About Us",
    description: "A Web development platform for web developers",
@@ -27,9 +28,9 @@ export default function about() {
   return (
           
     <div className=' m-32 mt-0 '>
-         <div className=' text-3xl mt-20 '> ABOUT US </div>
+         <div className=' text-4xl mt-20 '> ABOUT US </div>
            
-           <div className='text-sm mt-4  flex  lg:flex sm:block  '>
+           <div className='text-[20px] mt-4  flex  lg:flex sm:block  '>
            Welcome to our About page!
 
               At Efosky, we are passionate about giving you the best ideas on gadgets.<br/> Our team is dedicated to providing products,<br/> information and services that benefit or solve a specific problem for your customers.<br/>
@@ -56,9 +57,9 @@ export default function about() {
 
                <div className=' flex gap-10 -mt-8'>
 
-                <div className='border-4  pt-1 pr-4 pl-3  text-7xl  rounded-md   block  border-red-500'>11k<br/> <span className='text-sm  '>total blogs </span> </div>
-                <div className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-green-500'>2k  <br/> <span className='text-sm  '>followers </span></div>
-                <div  className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-blue-400'>300+  <br/> <span className='text-sm  '> workers </span></div>
+                <div className='border-4  pt-1 pr-4 pl-3  text-7xl  rounded-md   block  border-red-500'>2k+<br/> <span className='text-lg '>total blogs </span> </div>
+                <div className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-green-500'>1k+  <br/> <span className='text-lg '>followers </span></div>
+                <div  className='border-4 pt-1 pr-4 pl-3  text-7xl  rounded-md  block border-blue-400'>300+  <br/> <span className='text-lg '> workers </span></div>
         
                 </div> <br/>
 
@@ -71,7 +72,7 @@ export default function about() {
                           </span></div> <br/>
 
 
-                              <div className='flex gap-10 ml-72 text-2xl '>
+                              <div className='flex gap-10 m-40 mt-1 text-2xl '>
                                  <div className='border-1 bg-red-500 p-3'> . STANDARD QUALITY</div>
                                  <div className='border-1 bg-green-500 p-3'> . RELIABLE INFORMATION</div>
                                  <div className='border-1 bg-blue-700 p-3'> . LASTEST TECHNOLOGY</div>

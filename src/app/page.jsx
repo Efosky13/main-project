@@ -36,7 +36,7 @@ export default function SignUp() {
         <button className="bg-slate-900 text-white rounded-md p-4 hover:bg-red-400">
           <Link href='home'>Login</Link>
         </button>
-        <button className="bg-slate-900 text-white rounded-md p-4 hover:bg-red-400">
+        <button className="bg-slate-900 text-white ml-5 rounded-md p-4 hover:bg-red-400">
           <Link href='signup'>SIGNUP</Link>
         </button>
       </div>
